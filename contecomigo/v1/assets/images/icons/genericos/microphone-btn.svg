@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   fill="#000000"
+   height="1739.5206"
+   width="1753.6295"
+   version="1.1"
+   viewBox="0 0 1122.3229 1113.2932"
+   enable-background="new 0 0 512 512"
+   id="svg10"
+   sodipodi:docname="microphone-btn-press.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs14" />
+  <sodipodi:namedview
+     id="namedview12"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.2640625"
+     inkscape:cx="694.91124"
+     inkscape:cy="1120.9467"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg10" />
+  <ellipse
+     style="fill:#454e5f;stroke-width:0.05376"
+     id="path350"
+     cx="561.16144"
+     cy="556.64661"
+     rx="561.16144"
+     ry="556.64661" />
+  <ellipse
+     style="fill:#228c7e;stroke-width:0.0507736;fill-opacity:1"
+     id="path350-3"
+     cx="561.16144"
+     cy="556.64661"
+     rx="529.98865"
+     ry="525.72467" />
+  <g
+     id="g8"
+     style="fill:#454e5f;fill-opacity:1"
+     transform="matrix(1.2327095,0,0,1.2327095,245.58781,241.07297)">
+    <g
+       id="g6"
+       style="fill:#454e5f;fill-opacity:1">
+      <path
+         d="m 439.5,236 c 0,-11.3 -9.1,-20.4 -20.4,-20.4 -11.3,0 -20.4,9.1 -20.4,20.4 0,70 -64,126.9 -142.7,126.9 -78.7,0 -142.7,-56.9 -142.7,-126.9 0,-11.3 -9.1,-20.4 -20.4,-20.4 -11.3,0 -20.4,9.1 -20.4,20.4 0,86.2 71.5,157.4 163.1,166.7 v 57.5 H 212 c -11.3,0 -20.4,9.1 -20.4,20.4 0,11.3 9.1,20.4 20.4,20.4 h 88 c 11.3,0 20.4,-9.1 20.4,-20.4 0,-11.3 -9.1,-20.4 -20.4,-20.4 H 276.4 V 402.7 C 368,393.4 439.5,322.2 439.5,236 Z"
+         id="path2"
+         style="fill:#454e5f;fill-opacity:1" />
+      <path
+         d="m 256,323.5 c 51,0 92.3,-41.3 92.3,-92.3 V 103.3 C 348.3,52.3 307,11 256,11 c -51,0 -92.3,41.3 -92.3,92.3 v 127.9 c 0,51 41.3,92.3 92.3,92.3 z M 203.7,103.3 C 203.7,74.5 227.2,51 256,51 c 28.8,0 52.3,23.5 52.3,52.3 v 127.9 c 0,28.8 -23.5,52.3 -52.3,52.3 -28.8,0 -52.3,-23.5 -52.3,-52.3 z"
+         id="path4"
+         style="fill:#454e5f;fill-opacity:1" />
+    </g>
+  </g>
+</svg>

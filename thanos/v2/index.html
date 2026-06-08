@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciar Preferências de Mensagens</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: #222;
+        }
+
+        p {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 14px;
+            color: #666;
+            line-height: 1.5;
+        }
+
+        .checkbox-group {
+            margin-bottom: 20px;
+        }
+
+        .checkbox-group label {
+            display: block;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            margin-bottom: 10px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .checkbox-group label input {
+            margin-right: 10px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px 0;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .invisivel {
+            display: none;
+        }
+    </style>
+    <script>
+        function definirURL() {
+            const urlAtual = window.location.href; // Captura a URL
+            document.getElementById('urlCampo').value = urlAtual;
+
+            const checkboxes = document.querySelectorAll('.checkbox-group input[type="checkbox"]');  
+            const valoresSelecionados = Array.from(checkboxes)
+                .filter(checkbox => checkbox.checked)
+                .map(checkbox => checkbox.value);
+
+            document.getElementById('opcoesSelecionadas').value = valoresSelecionados.join(',');
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <form action="https://m.unifar.com.br/api/bloqueio" method="POST" onsubmit="definirURL()">
+            <h1>Gerenciar Preferências de Mensagens</h1>
+            <p>
+                Escolha quais tipos de mensagens você não quer mais receber. Selecione todas ou somente aquelas que deseja bloquear.
+            </p>
+
+            <!-- Campo invisível para a URL -->
+            <input type="text" name="url" id="urlCampo" class="invisivel">
+            <!-- Campo invisível para enviar as opções selecionadas -->
+            <input type="text" name="opcoes" id="opcoesSelecionadas" class="invisivel">
+
+            <!-- Checkboxes -->
+            <div class="checkbox-group">
+                <label>
+                    <input type="checkbox" value="1"> Não enviar mensagens promocionais
+                </label>
+                <label>
+                    <input type="checkbox" value="2"> Não enviar mensagens de aniversário
+                </label>
+                <label>
+                    <input type="checkbox" value="3"> Não enviar lembrete de medicamento de uso contínuo
+                </label>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
