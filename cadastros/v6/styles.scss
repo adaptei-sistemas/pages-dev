@@ -122,30 +122,22 @@ body {
 }
 
 span.select2-selection--multiple[aria-expanded=true] {
-  border-color: $color-primary !important;
+  border-color: $color-primary !important;   
 }
 
 .color-invalid-select {
 
   span.select2-selection--multiple {
-    border-color: #FB2F2F !important;
+    border-color: #FB2F2F !important;   
   }
   .select2-dropdown--above {
     border: 1px solid #FB2F2F !important;
-    border-bottom: none !important;
+    border-bottom: none !important;  
   }
 
   .select2-dropdown--below{
     border: 1px solid #FB2F2F !important;;
-    border-top: none !important;
-  }
-}
-
-.ng2-pdf-viewer-container {
-  overflow-x: unset !important;
-  .pdfViewer {
-    padding-bottom: 20px !important;
-    display: block;
+    border-top: none !important;     
   }
 }
 
@@ -352,7 +344,7 @@ span.select2-selection--multiple[aria-expanded=true] {
 .date-picker-focado {
   p-calendar {
     .p-datepicker-trigger {
-      border-color: $color-primary !important;
+      border-color: $color-primary !important;    
     }
     .p-inputtext {
       border-color: $color-primary !important;
