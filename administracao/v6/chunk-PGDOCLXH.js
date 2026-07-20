@@ -1,0 +1,1 @@
+import{qb as t,xb as c}from"./chunk-WXRCKIPL.js";var r=class i{constructor(o,e,s,a){this.id=o;this.descricao=e;this.cor=s;this.codigo=a}id;descricao;cor;codigo;static getStatusTodos(){return new i(null,"Todos os status","#e6e6e6",0)}static \u0275fac=function(e){t()};static \u0275dir=c({type:i})};export{r as a};
