@@ -1,0 +1,1 @@
+var n=window.location.pathname,t=window.location.hostname,a=window.location.protocol,o=`${a}//${t}`,c={production:!0,host:o,pathName:n,hostName:t,urlLoja:`${o}/login/auth`,urlRecurso:`${o}/recursos/api`};export{c as a};

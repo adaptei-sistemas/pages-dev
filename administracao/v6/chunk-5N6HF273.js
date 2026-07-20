@@ -1,1 +1,0 @@
-import{a as t}from"./chunk-UZD4QTOE.js";import"./chunk-Z4FCDZDW.js";import"./chunk-UC5NMU4T.js";import"./chunk-CYMR6SRA.js";import"./chunk-WXRCKIPL.js";var a=[{path:"home-base",loadComponent:()=>import("./chunk-VIDWATNM.js").then(o=>o.HomeBaseComponent),canActivate:[t],data:{title:"Sistema Unifar"}}];export{a as RECURSOS_ROUTES};

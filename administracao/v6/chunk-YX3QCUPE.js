@@ -1,0 +1,1 @@
+import{a as o}from"./chunk-KTQYWQ7V.js";import"./chunk-CTFYGVQG.js";import"./chunk-ULNAAY4O.js";import"./chunk-CYMR6SRA.js";import"./chunk-WXRCKIPL.js";var a=[{path:"",loadComponent:()=>import("./chunk-WMDOSPS7.js").then(t=>t.ConfiguracoesComponent),canActivate:[o],data:{title:"Configura\xE7\xF5es"}}];export{a as CONFIGURACOES_ROUTES};
