@@ -1,0 +1,1 @@
+import{Cc as c,ac as r,bc as s,yb as t}from"./chunk-OYB77VJV.js";var n=class e{static \u0275fac=function(a){return new(a||e)};static \u0275cmp=t({type:e,selectors:[["app-cadastrar"]],decls:2,vars:0,template:function(a,i){a&1&&(r(0,"p"),c(1,"cadastrar works!"),s())},encapsulation:2})};export{n as CadastrarExecucaoSql};
