@@ -1,1 +1,0 @@
-var c=[{codigo:1,descricao:"Unica"},{codigo:2,descricao:"Matriz"},{codigo:3,descricao:"Filial"},{codigo:4,descricao:"Espelho"}];function r(o){return c.find(i=>i.codigo===o)?.descricao??""}export{c as a,r as b};

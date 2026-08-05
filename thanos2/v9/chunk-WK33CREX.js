@@ -1,0 +1,1 @@
+import{a as t}from"./chunk-QWRON5XR.js";import"./chunk-4TPXSSRG.js";var e=[{path:"",loadComponent:()=>import("./chunk-CAUXFTGU.js").then(o=>o.MotivosListaComponent),canActivate:[t],data:{title:"Motivos"}}];export{e as MOTIVOS_ROUTES};
