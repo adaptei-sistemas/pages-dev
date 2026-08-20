@@ -1,0 +1,1 @@
+var e=class{static getStatus(){return[{codigo:1,descricao:"Ativa",cor:"#04A26C"},{codigo:2,descricao:"Cancelado",cor:"#6A6A6A"},{codigo:3,descricao:"Pendente",cor:"#FFAC47"},{codigo:4,descricao:"Bloqueado",cor:"#FB2F2F"}]}static getSituacao(){return[{codigo:2,descricao:"Aprovado",cor:"#2D5DB9"},{codigo:1,descricao:"Pendente",cor:"#FFAC47"}]}};export{e as a};

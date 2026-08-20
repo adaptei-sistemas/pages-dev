@@ -1,0 +1,1 @@
+import{a as t}from"./chunk-GAWAP35N.js";import"./chunk-HS5DLE3S.js";import"./chunk-2A2UQ72I.js";var e=[{path:"",loadComponent:()=>import("./chunk-RGR4OZKL.js").then(o=>o.ReplicacaoListaComponent),canActivate:[t],data:{title:"Replica\xE7\xE3o"}}];export{e as REPLICACAO_ROUTES};
