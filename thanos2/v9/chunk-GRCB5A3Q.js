@@ -1,1 +1,0 @@
-import{a as t}from"./chunk-GAWAP35N.js";import"./chunk-HS5DLE3S.js";import"./chunk-2A2UQ72I.js";var a=[{path:"",loadComponent:()=>import("./chunk-XP2COR5E.js").then(o=>o.AtendimentosMaxbotComponent),canActivate:[t],data:{title:"Maxbot"}}];export{a as MAXBOT_ROUTES};
