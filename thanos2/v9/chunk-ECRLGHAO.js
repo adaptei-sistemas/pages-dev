@@ -1,1 +1,0 @@
-import{a as t}from"./chunk-GAWAP35N.js";import"./chunk-HS5DLE3S.js";import"./chunk-2A2UQ72I.js";var e=[{path:"",loadComponent:()=>import("./chunk-GOER3H2B.js").then(o=>o.MapaUsoComponent),canActivate:[t],data:{title:"Mapa de uso"}}];export{e as MAPA_USO_ROUTES};
